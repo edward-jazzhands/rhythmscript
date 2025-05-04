@@ -87,6 +87,7 @@ For example, ideas for functions (in no particular order):
 | .attack    | .decay     | .sustain | .release   |
 | .beat      | .bpm       | .pitch   | .interval  |
 | .key       | .meter     | .rest    | .fade      |
+
 A RhythmScript coder can use these built-ins as well as define their own custom functions which string together these built-ins in any combination they want. But, the emphasis is on keeping these function definitions as declarative as possible. People should feel like they're writing a musical score, not doing math.
 
 RhythmScript aims to formalize the idea that **functions are “musical operators”**, and they’re declarative recipes for evolving streams over time. That can let us define a really clean mental model early-on:
